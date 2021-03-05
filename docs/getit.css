@@ -81,6 +81,7 @@ textarea {
   border: 0px;
   font-size: 0.9em;
   margin-left: 2.5%;
+  margin-top: 3%; 
 }
 
 .card-container{
@@ -116,7 +117,7 @@ textarea {
   font-display: inline-block;  
   font-size: 0.98em;
   font-weight:normal;
-  color: #2c2c2c;
+  color: #4c4c4c;
   text-align:left;
   align-self: center;  
 
@@ -198,10 +199,11 @@ textarea {
   border-width: 0;
   outline: none;
   border-radius: 7px;
-  /* box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.4);
   background-color: #f7d736;
-
+   font-weight: bold;
   transition: background-color 0.3s;
+  margin-bottom: 2%;
 }
 .btn > * {
   position: relative;
