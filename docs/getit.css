@@ -22,6 +22,8 @@ Algumas informações úteis e dicas:
   - Sombra: https://codepen.io/sdthornton/pen/wBZdXq
  */
 
+
+
 .appbar{
   left: 5%;
   top: 10%;
@@ -31,7 +33,6 @@ Algumas informações úteis e dicas:
   align-items: center;
   box-shadow: 1px 0px 20px black;
   background-color: #f7d736;
-  font-weight: bold;
 }
 
 .logo{
@@ -53,118 +54,117 @@ textarea {
   flex-wrap: wrap;
 }
 .form-card{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 12px 24px, rgba(0, 0, 0, 0.22) 0px 8px 8px;
+  box-shadow: 0 10px 24px 0 rgba(0, 0, 0, 0.3);
   justify-content:space-between;
   display: flex;
   flex-direction:column;
-  width: 29%;
-  height: 160px;
-  margin: 1% auto;
-  margin-top: 1.5%;
-  border-radius: 5px;
+  width: 30%;
+  height: 140px;
+  margin: 2% auto;
+  border-radius: 10px;
+  
+
 }
 
 .form-card-title{
-  margin-top: 2.5%;
   margin-left: 2.5%;
-  margin-right: 3%;
+  margin-top: 2.5%;
   font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  font-size: 1.5em;
-  border: 0px none;
-  align-items: start;
+  font-size: 1.4em;
+  border: none;
   display: flex;
+  background-color: transparent;
 }
 
 .autoresize{
   font-family: 'Roboto', sans-serif;
-  border: none;
-  font-weight: bold;
+  border: 0px;
   font-size: 0.9em;
   margin-left: 2.5%;
-  margin-right: 3%;
-  margin-top: 2.5%;
 }
 
 .card-container{
-  margin-top: 50px;
+  align-content:flex-start;
+  justify-content:space-evenly;
+  margin: 1%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap:wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+  
 }
-
-.card-content{
-  font-family: 'Permanent Marker', cursive;
-  font-size: 1.2em;
-  margin: 10% auto;
-  /*text-align: center;*/
-  margin-top: 30px;
-  padding-left: 20px;
-  margin-right: 10px;
-  color: #4c4c4c;
-}
-
-.card-title{
-  font-family: 'Permanent Marker', cursive;
-  font-size: 1.5em;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 5% auto;
-}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .card{
+  font-family: 'Permanent Marker', cursive;
+  width:15.5%;
+  margin-top: 5%;
   border-radius: 10px;
-  padding-top: : 5px;
-  padding-right: 5px;
-  padding-bottom: 25px;
-  padding-left: : 150px;
-  width: 290px;
-  height: 150px;
-  margin: 20px auto;
+  margin: 1% auto;
+  display: flex;
+  flex-direction:column;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.card-title{
+  /* flex-wrap:wrap; */
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 10px 10px 15px 10px; 
+}
+.card-content{
+  /* flex-wrap:wrap; */
+  font-display: inline-block;  
+  font-size: 0.98em;
+  font-weight:normal;
+  color: #2c2c2c;
+  text-align:left;
+  align-self: center;  
+
+  margin: auto;
+  margin-left: 4%;
+  margin-right: 4%;  
+  padding-bottom: 5%;
 }
 
 .card-color-1{
   background:#ead3a7;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+  
 }
 
 .card-color-2{
   background:#9de0f5;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
 .card-color-3{
   background:#ef89ba;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
 .card-color-4{
   background:#abe9c1;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
 .card-color-5{
   background:#fae890;
-  box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
 }
 
-.card-rotation-1{
-  transform: rotate(-5deg);
+/* .card-rotation-1{
+  transform: rotate(-25deg);
 }
 
 .card-rotation-2{
-  transform: rotate(-4deg);
+  transform: rotate(-20deg);
 }
 
 .card-rotation-3{
-  transform: rotate(-3deg);
-} 
+  transform: rotate(-15deg);
+} */
 
 .card-rotation-4{
-  transform: rotate(-2deg);
+  transform: rotate(-10deg);
 }
 
 .card-rotation-5{
-  transform: rotate(-1deg);
+  transform: rotate(-5deg);
 }
 
 .card-rotation-6{
@@ -172,41 +172,40 @@ textarea {
 }
 
 .card-rotation-7{
-  transform: rotate(1deg);
+  transform: rotate(5deg);
 }
 
 .card-rotation-8{
-  transform: rotate(2deg);
+  transform: rotate(10deg);
 }
 
-
-.card-rotation-9{
-  transform: rotate(3deg);
+/* .card-rotation-9{
+  transform: rotate(15deg);
 }
 
 .card-rotation-10{
-  transform: rotate(4deg);
+  transform: rotate(20deg);
 }
 
 .card-rotation-11{
-  transform: rotate(5deg);
-}
+  transform: rotate(25deg);
+} */
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
  .btn {
+   margin: 0.5em;
   position: relative;
   display: block;
-  padding: 2% 44.5%;
+  padding: 10px;
   overflow: hidden;
   border-width: 0;
   outline: none;
-  border-radius: 3px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px, rgba(0, 0, 0, 0.3) 0px 2px 5px;
-  font-weight: bold;
+  border-radius: 7px;
+  /* box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.2); */
   background-color: #f7d736;
+
   transition: background-color 0.3s;
-  margin: auto;
 }
 .btn > * {
   position: relative;
